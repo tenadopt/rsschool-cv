@@ -1,6 +1,6 @@
 # Yury Ihnatsyeu
 
-**Location:** Poland, 02-972, Warszawa, st. Sarmacka 17-67
+**Location:** Poland, 02-972, Warsaw, st. Sarmacka 17-67
 **Phone:** +48791912921
 **Email:** yury.ignatiev@gmail.com
 
@@ -35,7 +35,7 @@ requirements and user needs.
 
 ---
 
-## Code examles
+## Code examples
 
 ```js
 const getIntersectionNode = function(headA, headB) {
@@ -58,7 +58,7 @@ const getIntersectionNode = function(headA, headB) {
 
 ##Experience
 
-### Innowise Group, Warsaw, Poland**
+### Innowise Group, Warsaw, Poland
 **Frontend Developer**
 *February 2024 - August 2024*
 
@@ -68,7 +68,7 @@ const getIntersectionNode = function(headA, headB) {
 - Implemented optimization strategies, improving website performance by 20%.
 - Worked in an Agile environment, contributing to sprint planning, standups, and retrospectives.
 
-### Already Media, Warsaw, Poland**
+### Already Media, Warsaw, Poland
 **Copywriter (Part-Time)**
 *January 2023 - Present*
 
