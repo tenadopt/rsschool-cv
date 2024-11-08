@@ -56,7 +56,7 @@ const getIntersectionNode = function(headA, headB) {
 
 ---
 
-##Experience
+## Experience
 
 ### Innowise Group, Warsaw, Poland
 **Frontend Developer**
