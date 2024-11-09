@@ -1,7 +1,8 @@
 # Yury Ihnatsyeu
 
-**Location:** Poland, 02-972, Warsaw, st. Sarmacka 17-67
-**Phone:** +48791912921
+**Location:** Poland, Warsaw
+**Telegram:** @tenadopt
+**Discord:** Yury Ihnatsyeu (@tenadopt)
 **Email:** yury.ignatiev@gmail.com
 
 ---
