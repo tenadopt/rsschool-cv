@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Yury Ihnatyeu - Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="content-container">
+            <div class="header-container">
+                <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#contacts">Contacts</a></li>
+                        <li><a href="#summary">Summary</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#code-examples">Code Examples</a></li>
+                        <li><a href="#educational-projects">Educational Projects</a></li>
+                        <li><a href="#english">English</a></li>
+                    </ul>
+                </nav>
+                <section class="branding">
+                    <h1>Yury Ihnatsyeu</h1>
+                    <p>Frontend Developer</p>
+                </section>
+                <img src="./images/cv-photo.jpeg" alt="Yury Ihnatsyeu" class="profile-photo">
+            </div>
+        </div>
+    </header>
+    <main class="content-container">
+        <section id="contacts">
+            <h2>Contacts</h2>
+            <ul>
+                <li>Location: Poland, Warsaw</li>
+                <li>Telegram: @tenadopt</li>
+                <li>Discord: Yury Ihnatsyeu @tenadopt</li>
+                <li>Email: <a href="mailto:yury.ignatiev@gmail.com">yury.ignatiev@gmail.com</a></li>
+            </ul>
+        </section>
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>I’m a passionate Frontend Developer with experience in crafting responsive, user-centric web applications.
+                My journey in web development has equipped me with solid expertise in modern technologies like JavaScript,
+                React, Redux, and TypeScript. I take pride in writing clean, maintainable code and have a strong focus on
+                delivering high-quality solutions, employing tools like Jest, ESLint, and stylelint to ensure robustness
+                and consistency.</p>
+            <p>What excites me about software development is the continuous learning journey it demands. I thrive in
+                environments where I can learn independently, pick up new technologies, and adapt quickly. I believe
+                that my varied experience—from managing projects and leading sales initiatives to working on web
+                development projects—gives me a unique perspective in understanding both technical requirements
+                and user needs.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: JavaScript, TypeScript</li>
+                <li>Frameworks & Libraries: React, Redux</li>
+                <li>Development Tools: Jest, ESLint, stylelint</li>
+                <li>Version Control: Git, GitHub</li>
+                <li>Methodologies: Agile (Scrum), BEM</li>
+                <li>Other: Responsive Web Design, SEO</li>
+            </ul>
+        </section>
+        <section id="code-examples">
+            <h2>Code Example</h2>
+            <pre>
+                <code>
+                    const getIntersectionNode = function(headA, headB) {
+                        if (!headA || !headB) return null;
+
+                        let pointerA = headA;
+                        let pointerB = headB;
+
+                        while (pointerA !== pointerB) {
+                            pointerA = pointerA === null ? headB : pointerA.next;
+                            pointerB = pointerB === null ? headA : pointerB.next;
+                        }
+
+                        return pointerA;
+                    };
+                </code>
+            </pre>
+        </section>
+        <section id="educational-projects">
+            <h2>Educational Projects</h2>
+            <ul>
+                <li><a href="https://github.com/tenadopt/testinw">Calculator</a></li>
+                <li><a href="https://github.com/tenadopt/mini-paint">Paint</a></li>
+                <li><a href="https://github.com/tenadopt/custom-components-lib">Custom components library</a></li>
+            </ul>
+        </section>
+        <section id="english">
+            <h2>English</h2>
+            <p>I have an advanced level of English (C1) and have continually developed my language skills through
+                both formal and practical experiences. I completed a C1 Business English course at Streamline
+                Language School, which spanned from September 2023 to June 2024. This course emphasized professional
+                communication, presentation skills, and business terminology, equipping me with a strong foundation
+                in workplace English.
+            </p>
+            <p>In addition, my experience working in international teams has provided me with regular, practical use
+                of English. I frequently communicate with colleagues, clients, and collaborators in English, honing
+                my skills in written and verbal communication in real-world scenarios. This ongoing exposure has
+                allowed me to build confidence, fluency, and an understanding of cultural nuances, especially
+                in professional settings.</p>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="social-media">
+                <p>&copy;</p>
+                <a href="https://github.com/tenadopt/rsschool-cv" class="github-logo">
+                    <img src="./images/github-logo.png" alt="GitHub Logo">@tenadopt
+                </a>
+            </div>
+            <div class="footer-info">
+                <span class="year">| 2024 |</span>
+            </div>
+            <div class="footer-partners">
+                <a href="https://rs.school/courses/javascript">
+                    <img src="./images/rs-school-logo.svg" alt="RS School Logo" class="footer-logo">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <div class="mask"></div>
+    <script src="script.js"></script>
+</body>
+</html>
