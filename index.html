@@ -10,10 +10,8 @@
 </head>
 <body>
     <header>
-        <img src="./images/cv-photo.jpeg" alt="Yury Ihnatsyeu" class="profile-photo">
-        <h1>Yury Ihnatsyeu</h1>
-        <p>Frontend Developer</p>
-        <nav>
+        <button class="menu-toggle" aria-label="Toggle menu">&#9776</button>
+        <nav class="navbar">
             <ul>
                 <li><a href="#contacts">Contacts</a></li>
                 <li><a href="#summary">Summary</a></li>
@@ -23,13 +21,22 @@
                 <li><a href="#english">English</a></li>
             </ul>
         </nav>
+        <div class="header-container">
+            <section class="branding">
+                <h1>Yury Ihnatsyeu</h1>
+                <p>Frontend Developer</p>
+            </section>
+            <img src="./images/cv-photo.jpeg" alt="Yury Ihnatsyeu" class="profile-photo">
+        </div>
     </header>
     <main>
         <section id="contacts">
-            <p>Location: Poland, Warsaw</p>
-            <p>Telegram: @tenadopt</p>
-            <p>Discord: Yury Ihnatsyeu @tenadopt</p>
-            <p>Email: <a href="mailto:yury.ignatiev@gmail.com">yury.ignatiev@gmail.com</a></p>
+            <ul>
+                <li>Location: Poland, Warsaw</li>
+                <li>Telegram: @tenadopt</li>
+                <li>Discord: Yury Ihnatsyeu @tenadopt</li>
+                <li>Email: <a href="mailto:yury.ignatiev@gmail.com">yury.ignatiev@gmail.com</a></li>
+            </ul>
         </section>
         <section id="summary">
             <h2>Summary</h2>
@@ -77,9 +84,11 @@
         </section>
         <section id="educational-projects">
             <h2>Educational Projects</h2>
-            <p></p>
-            <p></p>
-            <p></p>
+            <ul>
+                <li><a href="https://github.com/tenadopt/testinw">Calculator</a></li>
+                <li><a href="https://github.com/tenadopt/mini-paint">Paint</a></li>
+                <li><a href="https://github.com/tenadopt/custom-components-lib">Custom components library</a></li>
+            </ul>
         </section>
         <section id="english">
             <h2>English</h2>
@@ -97,11 +106,24 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Yury Ihnatsyeu | <a href="https://github.com/tenadopt/rsschool-cv">GitHub</a> |
-            <a href="https://rs.school/courses/javascript">
-                <img src="./images/rs-school-logo.svg" alt="RS School Logo" class="footer-log">
-            </a>
-        </p>
+        <div class="footer-container">
+            <section class="social-media">
+                <p>&copy;</p>
+                <a href="https://github.com/tenadopt/rsschool-cv" class="github-logo">
+                    <img src="./images/github-logo.png" alt="GitHub Logo">@tenadopt
+                </a>
+            </section>
+            <section class="footer-info">
+                <span class="year">| 2024 |</span>
+            </section>
+            <section class="footer-partners">
+                <a href="https://rs.school/courses/javascript">
+                    <img src="./images/rs-school-logo.svg" alt="RS School Logo" class="footer-logo">
+                </a>
+            </section>
+        </div>
     </footer>
+    <div class="mask"></div>
+    <script src="script.js"></script>
 </body>
 </html>
