@@ -13,6 +13,8 @@ body {
 
 header {
     position: relative;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .header-container {
@@ -20,8 +22,6 @@ header {
     align-items: center;
     justify-content: space-between;
     position: relative;
-    background-color: #ffffff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .branding {
@@ -137,12 +137,38 @@ h1, h2 {
     color: #4a4a4a;
 }
 
+p {
+    line-height: 1.8;
+    margin: 0;
+}
+
 ul {
     padding-left: 2.5rem;
 }
 
 li {
     padding: 0.5rem 0;
+}
+
+a {
+    color: #1b59d8;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-x: auto;
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 5px;
+    max-width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+code {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5;
 }
 
 .footer-container {
@@ -155,8 +181,7 @@ li {
     color: #4a4a4a;
     font-size: 0.8rem;
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+    padding: 2rem 0;
 }
 
 .social-media {
@@ -181,23 +206,6 @@ li {
     width: 64px;
     height: auto;
     vertical-align: middle;
-}
-
-pre {
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    overflow-x: auto;
-    background-color: #f5f5f5;
-    padding: 1rem;
-    border-radius: 5px;
-    max-width: 100%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-code {
-    font-family: "Courier New", Courier, monospace;
-    font-size: 1em;
-    line-height: 1.5;
 }
 
 @media (max-width: 348px) {
